@@ -8,10 +8,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="shortcut icon" href="favicon.ico">
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -21,19 +23,141 @@
 
         <!-- Add your site or application content here -->
         <div class="container">
-           container 
 
-            <nav class="nav-main">
-                nav-main
-            </nav>
+            <header class="box">
+                <nav class="nav_main col_4 block">
+                    <a href="index.html">Bike Sharing Programs</a>
+                    <a href="measures.html">Measures</a>
+                    <a href="about.html">About</a>
+                </nav>
 
-            <div class="body">
-               body
+                <div class="title col_4 block">
+                    <h1>COMPARISON OF<br/>BIKE SHARING PROGRAMS<br/>IN SELECT U.S. CITIES</h1>
+                </div>
+            </header>
+
+            <div class="body box">
+
+                <section class="intro_text">
+                    <div class="col_4 block">
+                        <h2>More Information</h2>
+                    </div>
+                </section>
+
+                <div class="col_1 block measures_subnav">
+                    <nav>
+                        <a href="#about">About</a><br/>
+                        <a href="#methodology">Methodology</a><br/>
+                        <a href="#data_collection">Data Collection</a><br/>
+                        <a href="#endnotes">Endnotes</a><br/>
+                    </nav>
+                </div>
+
+                <div id="col_3_right">
+                    
+                    <!-- 1 ABOUT -->
+                    <section class="category_text">
+                        <div class="col_3 block">
+                            <h3><a name="about">About</a></h2>
+                        </div>
+                        <div class="col_3 block">
+                            <p>The <a href='http://piim.newschool.edu/'>Parsons Institute for Information Mapping</a> (PIIM) is a research, development, and professional services facility within The New School, New York City. PIIM’s mission is to advance the field of Knowledge Visualization through academic, NGO, government-partnership and industry-partnership pursuits. In the Fall of 2014, staff of PIIM initiated a collaboration project with Luca Nitschke, a research fellow and a master’s degree student attending Aalborg University, Denmark. The team chose to create infographics which enable comprehensive comparison of quality and conditions of urban bike-sharing programs within the United States. The objective was to investigate bike-sharing programs across multiple cities of the US and present the outcomes through a poster, as well as web interface.</p>
+                            <p><strong>The Team</strong>
+                                <br><em>Jihoon Kang,</em> Associate Director of PIIM, served as the project lead and art director
+                                <br><em>Luca Nitschke</em> led data collection and analysis
+                                <br><em>Janet Chan,</em> a BFA candidate of Parsons School of Design served as a designer within the team</p>
+                        </div>
+                    </section>
+
+
+                    <!-- 2 METHODOLOGY -->
+                    <section class="category_text">
+                        <div class="col_3 block">
+                            <h3><a name="methodology">Methodology</a></h2>
+                        </div>
+                        <div class="col_3 block">
+                            <p>The impetus for this project grew out of the desire to understand parameters regarding the <a href="programs/newyork.html">Citi Bike</a> bike-sharing system in New York City. To set up a baseline by which to consider such metrics an approach was developed to compare the bike-sharing programs across eleven US cities. The intent was to create a standard to initiate comparison for improvement, and to provide reference for public debate. This initial idea progressed during our brainstorming sessions respecting the presented outcome of analysis and comparison through five category ranges of US bike-sharing systems and their characteristics. Those meetings formed the central part of project development and entailed the discussion of useful and feasible data to collect, which cities will be included, as well as the actual data analysis and scoring process.</p>
+                            <p>In addition to Citi Bike in New York City (NY) we chose ten other systems across the United States for our analysis. The full list included: <a href="programs/chicago.html">Divvy</a> in Chicago (IL), <a href="programs/washington.html">Capital Bikeshare</a> in Washington, D.C., <a href="">Hubway</a> in Boston (MA), <a href="programs/denver.html">Denver B-cycle</a> in Denver (CO), <a href="programs/minneapolis.html">NiceRide Minnesota</a> in Minneapolis (MN), <a href="programs/sanfrancisco.html">Bay Area Bike Share</a> in the San Francisco Bay Area (CA), <a href="programs/austin.html">Austin B-cycle</a> in Austin (TX), <a href="programs/houston.html">Houston B-cycle</a> in Houston (TX), <a href="programs/columbus.html">CoGo Bike Share</a> in Columbus (OH), and <a href="programs/chattanooga.html">Bike Chattanooga</a> in Chattanooga (TN).</p>
+                            <p>In order to provide a comparative overview of the bike-sharing landscape in the United States, parameters were created that could be applied to cities that had bike-share systems that vary greatly in range of size and areas serviced. We included small systems (Houston, Chattanooga, Columbus, and Austin), medium sized systems (San Francisco, Denver, Boston, and Minneapolis) and large systems (Chicago, Washington, and New York City). An important factor regarding the choice of a system was that we set a minimum time of operation, one year, as a bar to inclusion. This allowed us to be assured of a year’s worth of data. Additionally, the sufficiency and availability of data was another criteria for selection.</p>
+                            <p>Our selection includes some of the oldest systems in the US (Washington, Minneapolis, and Denver), and also quite recently opened systems (Austin, Columbus, Chicago, New York City, and San Francisco). This diversity is necessary to give a complete view on bike sharing in the United States and portrays different steps in the development and different types of bike sharing. Unfortunately, the constraint of making our work presentable on a poster that addresses each of the specific issues for every city selected, meant that some systems could not being considered, as every parameter (data-wise) could not be ascertained.</p>
+                        </div>
+                    </section>
+
+                    <!-- 3 DATA COLLECTION -->
+                    <section class="category_text">
+                        <div class="col_3 block">
+                            <h3><a name="data_collection">Data Collection</a></h2>
+                        </div>
+                        <div class="col_3 block">
+                            <p>The data collection was carried out through an online research and direct e-mail correspondence. The online research concentrated on searching for available open source data provided by the system owners and operators on their respective websites. Other sources for data were statements from the system owners and operators through their official communication channels (e.g. Facebook, Twitter), third-party blogs and websites (e.g. online newspapers), as well as scientific and governmental publications.</p>
+                            <p>In principle, the online research aimed to collect all possible available data. However, this was followed up by direct contact of system operators and contractors in order to fill in all the “missing” data. Of ten contacted operators, five responded with all of the requested data.</p>
+                            <p>We then organized and processed the data in order to make equivalent parameters for our analysis. Due to not-insignificant differences in the availability of data among different systems, and the fact that not every system operators, or city authority, wished to share or were able to provide data, we had to adjust our initial categories. Another reason for not including some variables in this analysis was the ambiguity of some data regarding its collection and accuracy (e.g. miles travelled and carbon offset).</p>
+                            <p>Data sets which could be collected for every analyzed system and which was chosen for the analysis were: 
+                                <ol>
+                                    <li>Inhabitants of the respective city</li>
+                                    <li>Name of the system</li>
+                                    <li>Date of launch</li>
+                                    <li>Number of operating stations</li>
+                                    <li>Target number of bikes</li>
+                                    <li>Membership cost for annual and casual (one day) users</li>
+                                    <li>Service area in square miles</li>
+                                    <li>Average trips per year/season</li>
+                                    <li>Average trips per day.<sup>[<a class="endnotes_marker" href="#endnote_01">1</a>]</sup></li>
+                                </ol></p>
+                        </div>
+                    </section>
+
+                    <!-- 4 SCORING -->
+                    <section class="category_text">
+                        <div class="col_3 block">
+                            <h3><a name="scoring">Scoring</a></h2>
+                        </div>
+                        <div class="col_3 block">
+                            <p>In order to allow a readily-ascertained comparison between the systems, a relational scoring system was developed based on five key characteristics:
+                                <ol>
+                                    <li><a href="measures.html#cost">Costs</a></li>
+                                    <li><a href="measures.html#convenience">Convenience</a></li>
+                                    <li><a href="measures.html#system_area">System area</a></li>
+                                    <li><a href="measures.html#activity">Activity</a></li>
+                                    <li><a href="measures.html#system_size">System size</a></li>
+                                </ol></p>
+                            <p>In calculating these scores several steps had to be taken. From the data above six actual factors were developed (see <a href="measures.html">Measures</a>). These factors indicate different metrics of the respective bike-sharing system and allow an easier interpretation of the collected data for users of our reporting outcomes.</p>
+                            <p>Each characteristic was derived from one or two of the above factors and/or system metrics. The scores for costs and convenience were determined using two factors each, giving them equal weight. In practice this lead to taking the average of the two separately determined scores for each factor.</p>
+                            <p>For determining the relational score for each characteristic, the collected data and calculated factors were divided into ten ranges and scored from one to ten. The ranges were oriented against themselves to form high/low ranges. In other words, no “gold standards” were determined and no optimum scores were created, as this would have brought us far more subjective determinations.</p>
+                            <img src="img/score_rating.svg">
+                                
+                        </div>
+                    </section>
+
+                    <!-- 5 END NOTE -->
+                    <section class="category_text endnotes_section">
+                        <div class="col_3 block">
+                            <h3><a name="endnotes">Endnotes</a></h2>
+                        </div>
+                        <div class="col_3 block">
+                            <ol class='endnotes_list'>
+                                <li><a name="endnote_01">Data for US cities was derived through the USCensus data. Some systems include multiple cities, which are also included in the total inhabitant number (Bay Area does not include numbers for San Jose (CA)); The target number is the official number of bikes in the system. The number of actually available bikes, tends to be considerably lower, as bikes are being repaired or checked or their number is reduced due to weather events; For the systems in Denver, Minneapolis, San Francisco (Bay Area), Austin, Houston, Columbus, Chattanooga, Barcelona and Paris the system area was determined using ArcGIS, station location data and buffering; The average number of trips per day was derived differently for the systems. For most systems it was derived from the number of annual trips (respectively trips in twelve months). For New York City it was directly derived as an average of daily trips during one year. For San Francisco, Chattanooga, Minneapolis and Columbus the number is an estimation and for Denver the number was directly taken out of a yearly issued report by the system operator Denver B-cycle.</a></li>
+                            </ol>                          
+                        </div>
+                    </section>
+
+                </div>
+
+
+
             </div>
 
-            <div class="footer">
-               footer
-            </div>
+            <footer class="box">
+                <div class="copyright col_1 block">
+                    <p>&copy; MMXV <a href="http://piim.newschool.edu">PIIM</a></p>
+                </div>  
+                <div class="copyright col_3 block">
+                    <p>Jihoon Kang, <em>Project lead/Art Director</em>&nbsp;&nbsp;&nbsp;
+                    Luca Nitschke, <em>Research lead</em>&nbsp;&nbsp;&nbsp;
+                    Janet Chan, <em>Designer</em>
+                    </p>
+                </div>  
+            </footer>
 
         </div>
 
@@ -53,25 +177,3 @@
         </script>
     </body>
 </html>
-
-
-<!-- 
-
-            <div class="container">
-                container 
-
-            <nav class="nav-main">
-                nav-main
-            </nav>
-
-            <div class="body">
-               body
-            </div>
-
-            <div class="footer">
-               footer
-            </div>
-
-        </div>
-
--->

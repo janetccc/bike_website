@@ -8,6 +8,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="shortcut icon" href="favicon.ico">
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
@@ -22,31 +24,64 @@
 
         <!-- Add your site or application content here -->
         <div class="container">
-           container 
 
-            <nav class="nav-main">
-                <a href="index.html">Bike Sharing Programs</a>
-                <a href="measures.html">Quality Measures</a>
-                <a href="about.html">About</a>
-            </nav>
+            <header class="box">
+                <nav class="nav_main col_4 block">
+                    <a href="index.html">Bike Sharing Programs</a>
+                    <a href="measures.html">Measures</a>
+                    <a href="about.html">About</a>
+                </nav>
 
-            <div class="header">
-                <h1>COMPARISON OF<br/>BIKE SHARING PROGRAMS<br/>IN SELECT U.S. CITITES</h1>
-            </div>
-
-            <div class="body">
-                <div class="intro-text">
-                    <p>The topic of bike sharing grew out of personal interest of Parsons Institute for Information Mapping (PIIM) visiting researcher, Luca Nitchke.  As his work is largely focused on urban development, the political and social aspects of bike sharing was a rich topic that could be examined in a deeper way. Little scientific work has been done on bike sharing, especially with a direct focus on comparing the many systems across the nation. PIIM’s New York City location, shared interest in the topic, and the active debate around CitiBike taking place in the city created an excellent opportunity for this project.</p>
+                <div class="title col_4 block">
+                    <h1>COMPARISON OF<br/>BIKE SHARING PROGRAMS<br/>IN SELECT U.S. CITIES</h1>
                 </div>
-                <div class="col-1">1</div>
-                <div class="col-2">2</div>
-                <div class="col-3">3</div>
-                <div class="col-4">4</div>
+            </header>
+
+            <div class="body box">
+
+                <section class="intro_text">
+                    <div class="col_2 block"><img src="img/us_map/us_dot_map_all.svg"></div>
+                    <div class="col_2 block">
+                        <p>The topic of bike sharing grew out of personal interest of Parsons Institute for Information Mapping (PIIM) visiting researcher, Luca Nitchke.  As his work is largely focused on urban development, the political and social aspects of bike sharing was a rich topic that could be examined in a deeper way. Little scientific work has been done on bike sharing, especially with a direct focus on comparing the many systems across the nation. PIIM’s New York City location, shared interest in the topic, and the active debate around CitiBike taking place in the city created an excellent opportunity for this project.</p>
+                    </div>
+                </section>
+                
+                <section class="graph_container">
+                    <div class="col_1 block graph_legend"><h4>legend</h4><img src="img/legend_chart.svg"></div>
+                    <div class="col_1 block city_graph"><a href="programs/austin.html"><h4>Austin, TX</h4><img src="img/chart/austin_chart.svg"></a></div>
+                    <div class="col_1 block city_graph"><a href="programs/boston.html"><h4>Boston, MA</h4><img src="img/chart/boston_chart.svg"></a></div>
+                    <div class="col_1 block city_graph"><a href="programs/chattanooga.html"><h4>Chattanooga, TN</h4><img src="img/chart/chattanooga_chart.svg"></a></div>
+                    <div class="col_1 block city_graph"><a href="programs/chicago.html"><h4>Chicago, IL</h4><img src="img/chart/chicago_chart.svg"></a></div>
+                    <div class="col_1 block city_graph"><a href="programs/columbus.html"><h4>Columbus, OH</h4><img src="img/chart/columbus_chart.svg"></a></div>
+                    <div class="col_1 block city_graph"><a href="programs/denver.html"><h4>Denver, CO</h4><img src="img/chart/denver_chart.svg"></a></div>
+                    <div class="col_1 block city_graph"><a href="programs/houston.html"><h4>Houston, TX</h4><img src="img/chart/houston_chart.svg"></a></div>
+                    <div class="col_1 block city_graph"><a href="programs/minneapolis.html"><h4>Minneapolis, MN</h4><img src="img/chart/minneapolis_chart.svg"></a></div>
+                    <div class="col_1 block city_graph"><a href="programs/newyork.html"><h4>New York, NY</h4><img src="img/chart/ny_chart.svg"></a></div>
+                    <div class="col_1 block city_graph"><a href="programs/sanfrancisco.html"><h4>San Francisco <br/>Bay Area, CA</h4><img style="margin-top: -20px" src="img/chart/sanfran_chart.svg"></a></div>
+                    <div class="col_1 block city_graph"><a href="programs/washington.html"><h4>Washington, DC</h4><img src="img/chart/washington_chart.svg"></a></div>
+                </section>
+
+                <section class="findings_text">
+                    <div class="col_3 block">
+                        <p>Our research showed that Citi Bike is the most active system in the United States (and together with Hubway in Boston and Capital Bikeshare in Washington, D.C., has a comparable activity to European cities). For New York City, this high usage could be explained by the high population density in parts of Manhattan and Downtown Brooklyn, and with a large amount of incoming commuters choosing Citi Bike as a ‘last-mile’ for their commute rather than a subway or cab ride. Another factor is the population of New York City. Highly educated, high earning, health conscious, and creative citizens, are the populations that are often the first and most frequent users of bike share systems, and New York City has a high concentration of these groups. This mix of a beneficial population and the physical structure of New York City made Citi Bike’s initial rapid growth and frequent use possible. However, looking at recent trip data, the number of trips is lower in the second operational year, which according to public critiques is a consequence of low service quality. Unfortunately we were not able to analyze this characteristic due to a lack of available data.
+                        <br/><br/>
+                        Two weaker points of Citi Bike are the area it covers and its size in terms of bikes per inhabitants, which are also among the public criticism. Citi Bike will double its coverage area within the next two years to include most of Manhattan and more areas in Brooklyn and Queens. An important part of public discussion is the comparably high membership price ($149 annually). In our analysis we used relative cost measures, which show that for the accessible area and number of stations Citi Bike is still comparably affordable. But from a social justice perspective, it has to be emphasized that this high price is a barrier for low-income New Yorkers to enter and benefit from the system. Even within the reduced price for tenants in public housing the requirement of a credit card out rules the participation of many citizens.
+                        </p>
+                    </div>
+                </section>
             </div>
 
-            <div class="footer">
-                Copyright info MMXV PIIM
-            </div>
+            <footer class="box">
+                <div class="copyright col_1 block">
+                    <p>&copy; MMXV <a href="http://piim.newschool.edu">PIIM</a></p>
+                </div>  
+                <div class="copyright col_3 block" style="text-align: right">
+                    <p>Jihoon Kang, <em>Project lead/Art Director</em>&nbsp;&nbsp;&nbsp;
+                    Luca Nitschke, <em>Research lead</em>&nbsp;&nbsp;&nbsp;
+                    Janet Chan, <em>Designer</em>
+                    </p>
+                </div>   
+            </footer>
 
         </div>
 

@@ -1,0 +1,221 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="shortcut icon" href="favicon.ico">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        
+        <!-- Chartist.JS files -->
+        <link rel="stylesheet" href='css/chartist.css'>
+        <script src='js/chartist.min.js'></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div class="container">
+
+            <header class="box">
+                <nav class="nav_main col_4 block">
+                    <a href="index.html">Bike Sharing Programs</a>
+                    <a href="measures.html">Measures</a>
+                    <a href="about.html">About</a>
+                </nav>
+
+                <div class="title col_4 block">
+                    <h1>COMPARISON OF<br/>BIKE SHARING PROGRAMS<br/>IN SELECT U.S. CITIES</h1>
+                </div>
+            </header>
+
+            <div class="body box">
+
+                <section class="intro_text">
+                        <div class="col_4 block">
+                            <h2>Measures</h2>
+                        </div>
+                    </section>
+
+                <div class="col_1 block measures_subnav">
+                    <nav>
+                        <a href="#cost">Cost</a><br/>
+                        <a href="#convenience">Convenience</a><br/>
+                        <a href="#system_area">System Area</a><br/>
+                        <a href="#activity">Activity</a><br/>
+                        <a href="#system_size">System Size</a>
+                    </nav>
+                    <!-- <img style="text-align: center" src="img/legend_chart.svg"> -->
+                </div>
+
+                <div id="col_3_right">
+                    
+                    <!-- COST -->
+                    <section class="category_text">
+                        <div class="col_3 block">
+                            <h3><a name="cost">Cost</a></h2>
+                        </div>
+                        <div class="col_2 block">
+                            <p><strong>Scoring System</strong> 
+                                <ul>
+                                    <li>Annual membership fee per stations: Indicates a relative usage cost</li>
+                                    <li>Annual membership fee per system miles squared: Indicates a relative implementation cost</li>
+                                </ul>
+                            </p>
+                            <p><strong>Analysis</strong> More Text</p>
+                        </div>
+                        <div class="col_2 block">
+                            <div class="ct-chart ct-golden-section bar_graph" id="cost_bar_graph"></div>
+                        </div>
+                        <div class="col_1 block graph_annotations">
+                            <p>Best of...<br/>Annotations</p>
+                        </div>
+                    </section>
+
+
+                    <!-- CONVENIENCE -->
+                    <section class="category_text">
+                        <div class="col_3 block">
+                            <h3><a name="convenience">Convenience</a></h2>
+                        </div>
+                        <div class="col_2 block">
+                            <p><strong>Scoring System</strong> 
+                                <ul>
+                                    <li>Stations per system miles squared: 
+                                    </li>
+                                    <li>Bikes per station: Indicates the system's size in terms of actual trip generation and reception for each station</li>
+                                </ul>
+                            </p>
+                            <p><strong>Analysis</strong> More Text</p>
+                        </div>
+                        <div class="col_2 block">
+                            <div class="ct-chart ct-golden-section bar_graph" id="convenience_bar_graph"></div>
+                        </div>
+                        <div class="col_1 block">
+                            <p>Best of...<br/>Annotations</p>
+                        </div>
+                    </section>
+
+                    <!-- SYSTEM AREA -->
+                    <section class="category_text">
+                        <div class="col_3 block">
+                            <h3><a name="area">System Area</a></h2>
+                        </div>
+                        <div class="col_2 block">
+                            <p><strong>Scoring System</strong> 
+                                <ul>
+                                    <li>System Area</li>
+                                </ul>
+                            </p>
+                            <p><strong>Analysis</strong> More Text</p>
+                        </div>
+                        <div class="col_2 block">
+                            <div class="ct-chart ct-golden-section bar_graph" id="area_bar_graph"></div>
+                        </div>
+                        <div class="col_1 block">
+                            <p>Best of...<br/>Annotations</p>
+                        </div>
+                    </section>
+
+                    <!-- ACTIVITY -->
+                    <section class="category_text">
+                        <div class="col_3 block">
+                            <h3><a name="activity">Activity</a></h2>
+                        </div>
+                        <div class="col_2 block">
+                            <p><strong>Scoring System</strong> 
+                                <ul>
+                                    <li>Trips per bike per day: Indicator for system usage and activity</li>
+                                </ul>
+                            </p>
+                            <p><strong>Analysis</strong> More Text</p>
+                        </div>
+                        <div class="col_2 block">
+                            <div class="ct-chart ct-golden-section bar_graph" id="activity_bar_graph"></div>
+                        </div>
+                        <div class="col_1 block">
+                            <p>Best of...<br/>Annotations</p>
+                        </div>
+                    </section>
+
+                    <!-- SYSTEM SIZE -->
+                    <section class="category_text">
+                        <div class="col_3 block">
+                            <h3><a name="system_size">System Size</a></h2>
+                        </div>
+                        <div class="col_2 block">
+                            <p><strong>Scoring System</strong> 
+                                <ul>
+                                    <li>Number of inhabitants per bike: Indicates the availability of bikes and the systems convenience</li>
+                                </ul>
+                            </p>
+                            <p><strong>Analysis</strong> More Text</p>
+                        </div>
+                        <div class="col_2 block">
+                            <div class="ct-chart ct-golden-section bar_graph" id="system_size_bar_graph"></div>
+                        </div>
+                        <div class="col_1 block">
+                            <p>Best of...<br/>Annotations</p>
+                        </div>
+                    </section>
+                </div>
+
+
+
+            </div>
+
+            <footer class="box">
+                <div class="copyright col_1 block">
+                    <p>&copy; MMXV <a href="http://piim.newschool.edu">PIIM</a></p>
+                </div>  
+                <div class="copyright col_3 block">
+                    <p>Jihoon Kang, <em>Project lead/Art Director</em>&nbsp;&nbsp;&nbsp;
+                    Luca Nitschke, <em>Research lead</em>&nbsp;&nbsp;&nbsp;
+                    Janet Chan, <em>Designer</em>
+                    </p>
+                </div>   
+            </footer>
+
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src='js/measures_bar_charts.js'></script>
+        <script>
+  // Initialize a Line chart in the container with the ID chart1
+  new Chartist.Line('#chart1', {
+    labels: [1, 2, 3, 4],
+    series: [[100, 120, 180, 200]]
+  });
+
+  // Initialize a Line chart in the container with the ID chart2
+  new Chartist.Bar('#chart2', {
+    labels: [1, 2, 3, 4],
+    series: [[5, 2, 8, 3]]
+  });
+</script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>

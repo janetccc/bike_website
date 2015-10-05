@@ -1,15 +1,16 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
-
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <Jihoon Kang> -- <Project Lead/Art Director>
+    <Luca Nitschke> -- <Research Lead>
+    <Janet Chan> -- <Designer> -- <www.janetcchan.com>
+
 
 # THANKS
 
-    <name>
+    <Parsons Institute for Information Mapping>
 
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
     Apache Server Configs, jQuery, Modernizr, Normalize.css
+    Chartist.js
