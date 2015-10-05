@@ -159,6 +159,11 @@ body {
   width: 960px;
   position: relative;
   margin: auto;
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+}
+
+h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -195,24 +200,33 @@ header {
 
 header h1 {
   line-height: 100%;
-  color: #333399;
+  color: #333399; 
+/*  font-size: 2.2em;*/
 }
 
 .nav_main {
   padding-bottom: 20px;
-  padding-top: 20px;
+/*  padding-top: 20px;*/
   margin-bottom: 10px;
+
+}
+
+.nav_main li {
+  font-size: 1.3em;
 }
 
 .nav_main a {
-  color: #333399;
+  color: #66cc00;
 }
 
-nav a {
+nav li {
   text-decoration: none;
   padding-right: 20px;
-  color: #66cccc;
+  color: #333399;
+  list-style: none;
+  display: inline-block;
 }
+
 
 .nav_main {
 
@@ -260,6 +274,7 @@ p {
   text-align: center;
   padding-top: 10px;
   color: #333399;
+  font-weight: 400;
 }
 
 .city_graph a{
@@ -322,6 +337,15 @@ table {
   text-align: left;
 }
 
+.right_col table th {
+  text-align: center;
+}
+
+.right_col table .table_left_col {
+  text-align: right;
+  padding-right: 12px;
+}
+
 td {
   padding-bottom: 8px;
   line-height: 1;
@@ -338,6 +362,7 @@ th {
 
 .bottom_links li {
   list-style: none;
+  color: #66cccc;
 }
 
 .bottom_links li a {
@@ -352,10 +377,10 @@ th {
   width: 210px;
 /*  border-radius: 8px;*/
 }
-
+/*
 .measures_subnav a {
-  color: #333399;
-}
+  color: #22cc00;
+}*/
 
 #col_3_right {
   margin-left: 237px;
@@ -363,7 +388,7 @@ th {
 }
 
 a {
-  color: #99cc66;
+  color: #22cc00;
   text-decoration: none;
 }
 
