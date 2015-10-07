@@ -174,11 +174,11 @@ h2 {
 h3 {
   font-weight: 300;
   font-size: 1.5em;
-  color: #33cccc;
+  color: #22cc00;
 }
 
 h3 a {
-  color: #33cccc;
+  color: #22cc00;
 }
 
 img {
@@ -208,7 +208,7 @@ header h1 {
   padding-bottom: 20px;
 /*  padding-top: 20px;*/
   margin-bottom: 10px;
-
+  text-align: right;
 }
 
 .nav_main li {
@@ -216,7 +216,7 @@ header h1 {
 }
 
 .nav_main a {
-  color: #66cc00;
+/*  color: #66cc00;*/
 }
 
 nav li {
@@ -356,18 +356,17 @@ th {
   padding-bottom: 4px;
 }
 
-.bottom_links {
-
+.bottom_links ul {
+  margin: 0;
 }
 
 .bottom_links li {
   list-style: none;
-  color: #66cccc;
+  color: #333399;
 }
 
 .bottom_links li a {
   text-decoration: none;
-  color: #333399;
 }
 
 /*- MEASURES PAGE -*/
@@ -388,7 +387,8 @@ th {
 }
 
 a {
-  color: #22cc00;
+  color: #22ddcc;
+  /*color: #22cc00; /*green*/
   text-decoration: none;
 }
 
