@@ -95,6 +95,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*###########################################################*/
+/*- GENERAL STYLING -*/
+/*###########################################################*/
+
 body {
   background: #ffffee;
   color: #111111;
@@ -111,6 +115,16 @@ body {
   display: inline-block;
 }
 
+.container {
+  font-size: 0;
+  width: 960px;
+  position: relative;
+  margin: auto;
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+}
+
+/*- BASIC COLUMNS -*/
 .col_1 {
   width: 225px; 
 }
@@ -138,6 +152,10 @@ body {
   display: inline-block;
 }
 
+/*- end of BASIC COLUMNS -*/
+
+
+/*- SPECIAL COLUMNS -*/
 .left_col {
   width: 50%;
   display: inline-block;
@@ -154,14 +172,10 @@ body {
   display: inline-block;
 }
 
-.container {
-  font-size: 0;
-  width: 960px;
-  position: relative;
-  margin: auto;
-  /*font-family: 'Montserrat', sans-serif;*/
-  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
-}
+/*- end of SPECIAL COLUMNS -*/
+
+
+
 
 h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
@@ -204,6 +218,9 @@ header h1 {
 /*  font-size: 2.2em;*/
 }
 
+/*#################################*/
+/*- MAIN NAV -*/
+
 .nav_main {
   padding-bottom: 20px;
 /*  padding-top: 20px;*/
@@ -227,6 +244,27 @@ nav li {
   display: inline-block;
 }
 
+/*- end of MAIN NAV -*/
+
+/*#################################*/
+/*- SUBNAV ON MEASURES & ABOUT PAGE -*/
+.measures_subnav {
+  position: fixed;
+  background: rgba(204,204,115,0.15);
+  width: 210px;
+/*  border-radius: 8px;*/
+}
+
+/*- end of SUBNAV ON MEASURES & ABOUT PAGE -*/
+
+
+/*- end of GENERAL STYLING -*/
+
+
+
+/*###########################################################*/
+/*- OVERIVEW PAGE -*/
+/*###########################################################*/
 
 .nav_main {
 
@@ -253,6 +291,9 @@ p {
   padding-bottom: 20px;
 }
 
+/*#################################*/
+/*- GRAPH SECTION -*/
+
 .graph_container {
   text-align: center;
   display: inline-block;
@@ -272,9 +313,10 @@ p {
 
 .city_graph h4{
   text-align: center;
-  padding-top: 10px;
-  color: #333399;
-  font-weight: 400;
+  margin-top: 10px;
+  color: #22ddcc;
+  font-weight: 700;
+  display: inline-block;
 }
 
 .city_graph a{
@@ -287,6 +329,12 @@ p {
   width: 226px;
 }
 
+/*- end of GRAPH SECTION -*/
+
+
+/*#################################*/
+/*- BOTTOM FINDINGS TEXT -*/
+
 .findings_text {
   margin: auto;
 }
@@ -296,7 +344,12 @@ p {
   width: 699px;
 }
 
-/*--*/
+/*- end of BOTTOM FINDINGS TEXT -*/
+
+
+/*###########################################################*/
+/*- PROGRAMS PAGE -*/
+/*###########################################################*/
 
 .section_title p {
   padding-bottom: 0;
@@ -307,6 +360,9 @@ p {
   bottom: 0;
 }
 
+/*#################################*/
+/*- LEFT COL GRAPHS -*/
+
 .us_map {
   width: 462px;
 }
@@ -315,23 +371,11 @@ p {
   width: 226px;
 }
 
-.base_chart, .us_avg_chart {
-  position: absolute;
-  left: 12px;
-  width: 226px;
-}
+/*- end of LEFT COL GRAPHS -*/
 
-.base_chart {
-  z-index: -20;
-}
 
-.chart_under {
-  z-index: -10;
-}
-
-.chart_over {
-  z-index: 10;
-}
+/*#################################*/
+/*- RIGHT COL TABLE -*/
 
 table {
   text-align: left;
@@ -356,6 +400,12 @@ th {
   padding-bottom: 4px;
 }
 
+/*- end of RIGHT COL TABLE -*/
+
+
+/*#################################*/
+/*- BOTTOM OTHER PROGRAM LINKS -*/
+
 .bottom_links ul {
   margin: 0;
 }
@@ -369,17 +419,13 @@ th {
   text-decoration: none;
 }
 
+/*- end of BOTTOM OTHER PROGRAM LINKS -*/
+
+
+
+/*###########################################################*/
 /*- MEASURES PAGE -*/
-.measures_subnav {
-  position: fixed;
-  background: rgba(204,204,115,0.15);
-  width: 210px;
-/*  border-radius: 8px;*/
-}
-/*
-.measures_subnav a {
-  color: #22cc00;
-}*/
+/*###########################################################*/
 
 #col_3_right {
   margin-left: 237px;
@@ -392,9 +438,17 @@ a {
   text-decoration: none;
 }
 
-/* TWEAK CHARTIST BAR GRAPH */
+a:hover {
+  color: #333399;
+  background: #22ddcc;
+}
 
+
+
+/*###########################################################*/
 /*- ABOUT PAGE -*/
+/*###########################################################*/
+
 ol, ul {
   margin-left: 40px;
 }
