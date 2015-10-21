@@ -1,16 +1,20 @@
 /*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
+
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+
 html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4; }
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -19,79 +23,97 @@ html {
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
+
 ::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none; }
+    background: #b3d4fc;
+    text-shadow: none;
+}
 
 ::selection {
-  background: #b3d4fc;
-  text-shadow: none; }
+    background: #b3d4fc;
+    text-shadow: none;
+}
 
 /*
  * A better looking default horizontal rule
  */
+
 hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0; }
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
 
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
+
 audio,
 canvas,
 iframe,
 img,
 svg,
 video {
-  vertical-align: middle; }
+    vertical-align: middle;
+}
 
 /*
  * Remove default fieldset styles.
  */
+
 fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0; }
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
 
 /*
  * Allow only vertical resizing of textareas.
  */
+
 textarea {
-  resize: vertical; }
+    resize: vertical;
+}
 
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
+
 .browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0; }
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
 /*###########################################################*/
 /*- GENERAL STYLING -*/
 /*###########################################################*/
+
 body {
   background: #ffffee;
-  color: #111111; }
+  color: #111111;
+}
 
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 .block {
   font-size: 1rem;
   width: 100%;
-  display: inline-block; }
+  display: inline-block;
+}
 
 .container {
   font-size: 0;
@@ -99,79 +121,105 @@ body {
   position: relative;
   margin: auto;
   /*font-family: 'Montserrat', sans-serif;*/
-  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif; }
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+}
 
 /*- BASIC COLUMNS -*/
 .col_1 {
-  width: 225px; }
+  width: 225px; 
+}
 
 .col_2 {
-  width: 462px; }
+  width: 462px;
+}
 
 .col_3 {
-  width: 699px; }
+  width: 699px;
+}
 
 .col_4 {
-  width: 936px; }
+  width: 936px;
+}
 
 .col_1, .col_2, .col_3, .col_4 {
-  padding: 6px; }
+  padding: 6px;
+}
 
 .col_1,
 .col_2,
 .col_3,
-.col_4 div {
-  display: inline-block; }
+.col_4 div{
+  display: inline-block;
+}
 
 /*- end of BASIC COLUMNS -*/
+
+
 /*- SPECIAL COLUMNS -*/
 .left_col {
   width: 50%;
-  display: inline-block; }
+  display: inline-block;
+}
 
 .img_col_2 {
   width: 462px;
   height: 462px;
-  background: rgba(204, 204, 115, 0.15); }
+  background: rgba(204,204,115,0.15);
+}
 
 .right_col {
   width: 50%;
-  display: inline-block; }
+  display: inline-block;
+}
 
 /*- end of SPECIAL COLUMNS -*/
+
 h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+}
 
 .intro_text h2 {
   color: #333399;
   display: inline-block;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .intro_text {
-  vertical-align: text-top; }
+  vertical-align: text-top;
+}
 
 h3 {
   font-weight: 300;
   font-size: 1.5em;
-  color: #22cc00; }
+  color: #22cc00;
+}
 
 h3 a {
-  color: #22cc00; }
+  color: #22cc00;
+}
 
 img {
-  width: 100%; }
+  width: 100%;
+}
 
 .box {
   padding: 6px;
-  /*  width: 960px;*/ }
+/*  width: 960px;*/
+}
 
 .no_padding {
-  padding: 0 !important; }
+  padding: 0 !important;
+}
+
+header {
+  
+}
 
 header h1 {
   line-height: 100%;
   /*color: #333399; */
-  color: #22cc00; }
+  color: #22cc00;
+}
 
 .title_bar {
   background: #333399;
@@ -179,254 +227,356 @@ header h1 {
   display: inline-block;
   vertical-align: text-top !important;
   margin-left: 10px;
-  margin-top: -1px; }
+  margin-top: -1px;
+}
 
 .measures_title .title_bar {
-  width: 787px; }
+  width: 787px;
+}
 
 .about_title .title_bar {
-  width: 661px; }
+  width: 661px;
+}
 
 /*#################################*/
 /*- MAIN NAV -*/
+
 .nav_main {
   padding-bottom: 20px;
-  /*  padding-top: 20px;*/
+/*  padding-top: 20px;*/
   margin-bottom: 10px;
-  text-align: right; }
+  text-align: right;
+}
 
 .nav_main li {
-  font-size: 1.3em; }
+  font-size: 1.3em;
+}
 
 .nav_main a {
-  /*  color: #66cc00;*/ }
+/*  color: #66cc00;*/
+}
 
 nav li {
   text-decoration: none;
   padding-right: 20px;
   color: #333399;
   list-style: none;
-  display: inline-block; }
+  display: inline-block;
+}
 
 /*- end of MAIN NAV -*/
+
 /*#################################*/
 /*- SUBNAV ON MEASURES & ABOUT PAGE -*/
 .measures_subnav {
   position: fixed;
-  background: rgba(204, 204, 115, 0.15);
+  background: rgba(204,204,115,0.15);
   width: 210px;
-  /*  border-radius: 8px;*/ }
+/*  border-radius: 8px;*/
+}
 
 /*- end of SUBNAV ON MEASURES & ABOUT PAGE -*/
+
+
 /*- end of GENERAL STYLING -*/
+
+
+
 /*###########################################################*/
 /*- OVERIVEW PAGE -*/
 /*###########################################################*/
+
+.nav_main {
+
+}
+
 .body {
-  display: inline-block; }
+  display: inline-block;
+}
 
 .body div {
   display: inline-block;
-  vertical-align: top; }
+  vertical-align: top;
+}
 
 section {
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+}
+
+.intro_text {
+  
+}
 
 p {
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+}
 
 /*#################################*/
 /*- GRAPH SECTION -*/
+
 .graph_container {
   /*text-align: center;*/
   display: inline-block;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .city_name_bar {
   background-color: #2dc;
   height: 14px;
   margin-left: 6px;
-  margin-top: 14px; }
+  margin-top: 14px;
+}
 
 .austin {
-  width: 130px; }
+  width: 130px;  
+}
 
 .boston {
-  width: 116px; }
+  width: 116px;  
+}
 
 .chattanooga {
-  width: 63px; }
+  width: 63px;  
+}
 
 .chicago {
-  width: 122px; }
+  width: 122px;  
+}
 
 .columbus {
-  width: 94px; }
+  width: 94px;  
+}
 
 .denver {
-  width: 123px; }
+  width: 123px;  
+}
 
 .houston {
-  width: 109px; }
+  width: 109px;  
+}
 
 .minneapolis {
-  width: 69px; }
+  width: 69px;  
+}
 
 .newyork {
-  width: 101px; }
+  width: 101px;  
+}
 
 .sanfran {
-  width: 61px; }
+  width: 61px;  
+}
 
 .washington {
-  width: 75px; }
+  width: 75px;  
+}
 
 .graph_legend {
-  background: rgba(204, 204, 115, 0.15); }
+  background: rgba(204,204,115,0.15);
+}
 
-.graph_legend h4 {
-  padding-top: 10px; }
+.graph_legend h4{
+  padding-top: 10px;
+}
 
 .city_graph {
-  text-align: text-bottom; }
+  text-align: text-bottom;
+}
 
-.city_graph h4 {
+.city_graph h4{
   text-align: left;
   margin-top: 10px;
   color: #22ddcc;
   font-weight: 700;
-  display: inline-block; }
+  display: inline-block;
+}
 
-.city_graph a {
+.city_graph a{
   text-decoration: none;
   color: #111;
-  text-align: center; }
+  text-align: center;
+}
 
 .img_col_1 {
-  width: 226px; }
+  width: 226px;
+}
 
 /*- end of GRAPH SECTION -*/
+
+
 /*#################################*/
 /*- BOTTOM FINDINGS TEXT -*/
-.findings_text {
-  margin: auto; }
 
-.findings_text div {
+.findings_text {
+  margin: auto;
+}
+
+.findings_text div{
   margin-left: 115px;
-  width: 699px; }
+  width: 699px;
+}
 
 /*- end of BOTTOM FINDINGS TEXT -*/
+
+
 /*###########################################################*/
 /*- PROGRAMS PAGE -*/
 /*###########################################################*/
-.section_title p {
-  padding-bottom: 0; }
 
-.section_title > * {
+.section_title p {
+  padding-bottom: 0;
+}
+
+.section_title > *{
   vertical-align: bottom !important;
-  bottom: 0; }
+  bottom: 0;
+}
 
 /*#################################*/
 /*- LEFT COL GRAPHS -*/
+
 .us_map {
-  width: 462px; }
+  width: 462px;
+}
 
 .city_us_map {
-  width: 226px; }
+  width: 226px;
+}
 
 /*- end of LEFT COL GRAPHS -*/
+
+
 /*#################################*/
 /*- RIGHT COL TABLE -*/
+
 table {
-  text-align: left; }
+  text-align: left;
+}
 
 .right_col table th {
-  text-align: center; }
+  text-align: center;
+}
 
 .right_col table .table_left_col {
   text-align: right;
-  padding-right: 12px; }
+  padding-right: 12px;
+}
 
 td {
   padding-bottom: 8px;
   line-height: 1;
-  vertical-align: top; }
+  vertical-align: top;
+}
 
 th {
-  padding-bottom: 4px; }
+  padding-bottom: 4px;
+}
 
 /*- end of RIGHT COL TABLE -*/
+
+
 /*#################################*/
 /*- BOTTOM OTHER PROGRAM LINKS -*/
+
 .bottom_links ul {
-  margin: 0; }
+  margin: 0;
+}
 
 .bottom_links li {
   list-style: none;
-  color: #333399; }
+  color: #333399;
+}
 
 .bottom_links li a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 /*- end of BOTTOM OTHER PROGRAM LINKS -*/
+
+
+
 /*###########################################################*/
 /*- MEASURES PAGE -*/
 /*###########################################################*/
+
 #col_3_right {
   margin-left: 237px;
-  width: 711px; }
+  width: 711px;
+}
 
 a {
   color: #22ddcc;
   /*color: #22cc00; /*green*/
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 a:hover {
   color: #333399;
-  /*background: #22ddcc;*/ }
+  /*background: #22ddcc;*/
+}
+
+ 
 
 /*###########################################################*/
 /*- ABOUT PAGE -*/
 /*###########################################################*/
+
 ol, ul {
-  margin-left: 40px; }
+  margin-left: 40px;
+}
 
 .endnotes {
   color: #66cccc;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
-.endnotes_section div .endnotes_list > * {
-  font-size: 0.8em; }
+.endnotes_section div .endnotes_list> * {
+  font-size: 0.8em;
+}
 
 .endnotes_list {
-  margin-left: 40px; }
+  margin-left: 40px;
+}
 
 .endnotes_list a {
-  color: #111111; }
+  color: #111111;
+}
 
 /*-FOOTER-*/
+
 footer {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 footer > * {
-  vertical-align: top; }
+  vertical-align: top;
+}
 
 footer .copyright p {
-  font-size: 0.813em; }
+  font-size: 0.813em;
+}
+
+
+
+
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+
 /*
  * Hide visually and from screen readers:
  */
+
 .hidden {
-  display: none !important; }
+  display: none !important;
+}
 
 /*
  * Hide only visually, but have it available for screen readers:
  * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  */
+
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -435,13 +585,15 @@ footer .copyright p {
   overflow: hidden;
   padding: 0;
   position: absolute;
-  width: 1px; }
+  width: 1px;
+}
 
 /*
  * Extends the .visuallyhidden class to allow the element
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
+
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -449,13 +601,16 @@ footer .copyright p {
   margin: 0;
   overflow: visible;
   position: static;
-  width: auto; }
+  width: auto;
+}
 
 /*
  * Hide visually and from screen readers, but maintain layout
  */
+
 .invisible {
-  visibility: hidden; }
+  visibility: hidden;
+}
 
 /*
  * Clearfix: contain floats
@@ -468,86 +623,107 @@ footer .copyright p {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
+
 .clearfix:before,
 .clearfix:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */ }
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
 
 .clearfix:after {
-  clear: both; }
+  clear: both;
+}
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+
 @media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */ }
-@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */ }
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
    http://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
+
 @media print {
-  *,
-  *:before,
-  *:after {
-    background: transparent !important;
-    color: #000 !important;
-    /* Black prints faster:
-       http://www.sanbeiji.com/archives/953 */
-    box-shadow: none !important;
-    text-shadow: none !important; }
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
 
-  a,
-  a:visited {
-    text-decoration: underline; }
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
 
-  a[href]:after {
-    content: " (" attr(href) ")"; }
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
 
-  abbr[title]:after {
-    content: " (" attr(title) ")"; }
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
 
-  /*
-   * Don't show links that are fragment identifiers,
-   * or use the `javascript:` pseudo protocol
-   */
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
-    content: ""; }
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
 
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid; }
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
 
-  /*
-   * Printing Tables:
-   * http://css-discuss.incutio.com/wiki/Printing_Tables
-   */
-  thead {
-    display: table-header-group; }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
 
-  tr,
-  img {
-    page-break-inside: avoid; }
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
 
-  img {
-    max-width: 100% !important; }
+    thead {
+        display: table-header-group;
+    }
 
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3; }
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
 
-  h2,
-  h3 {
-    page-break-after: avoid; } }
+    img {
+        max-width: 100% !important;
+    }
 
-/*# sourceMappingURL=main.css.map */
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
